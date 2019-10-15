@@ -7,7 +7,7 @@ while [ $q – gt 0 ]
 do
 r= `expr $q % 10
 q= `expr $q / 10 `
-a=`expr $a + $r /* $r /*$r `
+a=`expr $a + $r /* $r /* $r `
 done
 if [ $a=$n ]
 then
